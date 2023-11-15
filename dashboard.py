@@ -45,6 +45,3 @@ dfMes["Día"] = dfMes["fechaEntrada"].dt.day_name() + " - " + dfMes["fechaStr"]
 # La gráfica de días por mes seleccionado.
 fig13112023 = px.bar(dfMes, x='Día', y='horaEntrada', labels={'horaEntrada': 'Número de Clientes'}, title='Número de Clientes por Semana')
 st.plotly_chart(fig13112023, use_container_width=True)
-
-
-fig14112024 = px.bar(dfMes, x="")

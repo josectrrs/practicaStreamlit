@@ -1,5 +1,5 @@
 altair
 pandas
 plotly
-plotly.express
 streamlit
+openpyxl
